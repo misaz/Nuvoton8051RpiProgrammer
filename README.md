@@ -43,7 +43,7 @@ To detect that device is connected properly try reading some device informations
 sudo nu8051 dinfo cid
 ```
 
-### Program using BIN file.
+### Program using BIN file
 
 If you have your firmare in binary form you can flash it using following command. `firmware.bin` is name of the binary file that will be flashed to the device.
 
@@ -51,7 +51,7 @@ If you have your firmare in binary form you can flash it using following command
 sudo nu8051 ld write firmware.bin
 ```
 
-### Program using HEX file.
+### Program using HEX file
 
 If you have your firmware in Intel HEX format you need to convert it to BIN first. This could be done using following commands that expectes that your HEX file is `firmware.hex`.
 
