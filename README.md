@@ -65,10 +65,10 @@ sudo nu8051 ld write firmware.bin
 Utility support another commands. Use help command to print help.
 
 ```
-sudo nu8051 help
-sudo nu8051 ld help
-sudo nu8051 dinfo help
-sudo nu8051 cbytes help
+nu8051 help
+nu8051 ld help
+nu8051 dinfo help
+nu8051 cbytes help
 ```
 
 ## Disclaimer
