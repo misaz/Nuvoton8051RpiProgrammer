@@ -37,7 +37,7 @@ Nuvoton's ICPDAT <------> GPIO4 (pin #7) on Raspberry Pi
 
 ### Read device info
 
-To detect that device is connected properly try reading some device informations. Following command reads CID of connected device. If the result is ff check your wiring is wrong and check that Nuvoton is powered.
+To detect that device is connected properly try reading some device informations. Following command reads CID of connected device. If the result is `ff` check your wiring is wrong and check that Nuvoton is powered.
 
 ```
 sudo nu8051 dinfo cid
